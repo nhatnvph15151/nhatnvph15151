@@ -1,6 +1,9 @@
+import Header from "../components/header"
 const AboutPage = {
     render(){
-        return '';
+        return `
+        ${Header.render()}
+        `;
     },
 };
 export default AboutPage;
