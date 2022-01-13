@@ -13,7 +13,7 @@ const Header = {
           <li><a href="/news" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white">News</a></li>
           <li><a href="/contact" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white">Contact</a></li>
           <li><a href="/signin" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white">Sign in</a></li>
-          <li><a href="/sigup" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white">Sign up</a></li>
+          <li><a href="/signup" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white">Sign up</a></li>
           <li><a href="/dashboard" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white">doashboard</a></li>
         </ul>
         <form action="" class="my-auto pr-4">

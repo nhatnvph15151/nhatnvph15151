@@ -1,14 +1,12 @@
 import Navigo from "navigo";
-import Header from "./components/header";
 import AboutPage from "./pages/about";
 import admin from "./pages/admin/addNews";
-
 import DetailNewsPage from "./pages/detailNews";
 import dashboard from "./pages/doashboard";
 import HomePage from "./pages/home";
 import NewsPage from "./pages/news";
 import Signin from "./pages/signin";
-import Signup from "./pages/sigup";
+import Signup from "./pages/signup";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
@@ -27,7 +25,7 @@ router.on({
     "/news": () => {
         print(NewsPage.render());
     },
-    "/sigup": () => {
+    "/signup": () => {
         print(Signup.render());
     },
     "/signin": () => {
