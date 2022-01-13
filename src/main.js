@@ -2,7 +2,7 @@ import Navigo from "navigo";
 import Header from "./components/header";
 import AboutPage from "./pages/about";
 import admin from "./pages/admin/addNews";
-import DetailNew from "./pages/admin/detailNew";
+import DetailNew from "./pages/detailNews";
 import DetailNewsPage from "./pages/detailNews";
 import dashboard from "./pages/doashboard";
 
