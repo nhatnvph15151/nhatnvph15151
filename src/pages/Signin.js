@@ -1,6 +1,6 @@
 
 
-const Signin = {
+const signIn = {
     render(){
         return /* html */ `
         <a class="block w-24 h-10 border-2 text-center py-1 my-10 ml-20" href="/">Trở Về</a>
@@ -59,4 +59,4 @@ const Signin = {
         `;
     },
 };
-export default Signin;
+export default signIn;
