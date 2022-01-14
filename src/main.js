@@ -1,8 +1,8 @@
 import Navigo from "navigo";
 import AboutPage from "./pages/about";
-import admin from "./pages/admin/addNews";
+import admin from "./pages/admin/news";
+import dashboard from "./pages/admin/doashboard";
 import DetailNewsPage from "./pages/detailNews";
-import dashboard from "./pages/doashboard";
 import HomePage from "./pages/home";
 import NewsPage from "./pages/news";
 import Signin from "./pages/signin";
@@ -32,7 +32,7 @@ router.on({
         print(Signin.render());
     }
     ,
-    "/dashboard": () => {
+    "/admin/dashboard": () => {
         print(dashboard.render());
     },
     "/admin/news": ()=>{
