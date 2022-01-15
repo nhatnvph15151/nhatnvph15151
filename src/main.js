@@ -6,7 +6,7 @@ import DetailNewsPage from "./pages/detailNews";
 import HomePage from "./pages/home";
 import NewsPage from "./pages/news";
 import Signup from "./pages/signup";
-import signIn from "./pages/signIn";
+import dangnhap from "./pages/dangnhap";
 import addNew from "./pages/admin/addNew";
 
 const router = new Navigo("/", { linksSelector: "a" });
@@ -29,8 +29,8 @@ router.on({
     "/signup": () => {
         print(Signup.render());
     },
-    "/signin": () => {
-        print(signIn.render());
+    "/dangnhap": () => {
+        print(dangnhap.render());
     }
     ,
     "/admin/dashboard": () => {
